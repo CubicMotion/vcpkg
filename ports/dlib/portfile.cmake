@@ -38,7 +38,7 @@ vcpkg_configure_cmake(
         -DDLIB_USE_LAPACK=ON
         -DDLIB_USE_CUDA=${WITH_CUDA}
         -DDLIB_GIF_SUPPORT=OFF
-        -DDLIB_USE_MKL_FFT=OFF
+        -DDLIB_USE_MKL_FFT=ON
         -DCMAKE_DEBUG_POSTFIX=d
     OPTIONS_DEBUG
         -DDLIB_ENABLE_ASSERTS=ON
